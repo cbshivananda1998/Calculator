@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#9fa8da</color>//appbar
-    <color name="colorPrimaryDark">#1a237e</color>
+    <color name="colorPrimary">#ce93d8</color>//appbar
+    <color name="colorPrimaryDark">#8e24aa</color>
     <color name="colorAccent">#c1d5e0</color>
+    <color name="buttonColor">#e1bee7</color>
 </resources>
