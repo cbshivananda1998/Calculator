@@ -1,4 +1,5 @@
 # Calculator
-A simple calculator
+Calculator that performs basic mathematical operations like addition ,substraction,division and multiplication.
 
-❮img src="images/Screenshot.png"❯
+Written in KOTLIN.
+![](images/Screenshot.png)
