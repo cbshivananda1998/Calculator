@@ -1,3 +1,4 @@
 # Calculator
 A simple calculator
-![](images/Screenshot.png)
+
+❮img src="images/Screenshot.png" width="100" ❯
