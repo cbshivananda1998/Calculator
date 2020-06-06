@@ -4,4 +4,4 @@ Calculator that performs basic mathematical operations like addition ,substracti
 Written in KOTLIN.
 
 
-![](images/updated UI screenshot.png)
+![](images/updated%20UI%20screenshot.png)
