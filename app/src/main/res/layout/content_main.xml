@@ -13,7 +13,7 @@
         android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="#f3e5f5"
+        android:background="#e3f2fd"
         android:ems="10"
         android:gravity="right|center_vertical|bottom"
         android:maxLength="12"
@@ -172,7 +172,14 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
-
+        <Button  android:layout_margin="4dp"
+            android:background="@color/buttonColor"
+            android:id="@+id/btnZero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.1"
+            android:onClick="onDigit"
+            android:text="0" />
 
         <Button  android:layout_margin="4dp"
             android:background="@color/buttonColor"
@@ -184,23 +191,9 @@
             android:text="."
             />
 
-        <Button  android:layout_margin="4dp"
-            android:background="@color/buttonColor"
-            android:id="@+id/btnZero"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="onDigit"
-            android:text="0" />
 
-        <Button  android:layout_margin="4dp"
-            android:background="@color/buttonColor"
-            android:id="@+id/btnClear"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="onClear"
-            android:text="CLR" />
+
+
 
         <Button  android:layout_margin="4dp"
             android:background="@color/buttonColor"
@@ -219,15 +212,24 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
-
+        <Button  android:layout_margin="4dp"
+            android:background="@color/buttonColor"
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClear"
+            android:text="CLR" />
         <Button
             android:layout_margin="4dp"
-            android:background="@color/buttonColor"
+            android:background="@color/equallColor"
             android:id="@+id/btnEqual"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:onClick="onEqual"
+            android:layout_weight="1"
             android:text="=" />
+
     </LinearLayout>
 
 </LinearLayout>
